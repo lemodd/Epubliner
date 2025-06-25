@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.4" author="PygubuDesigner 0.41">
+  <project>
+    <settings>
+      <setting id="name">EpubLiner</setting>
+      <setting id="description">EpubLiner</setting>
+      <setting id="module_name">EpubLiner</setting>
+      <setting id="template">application</setting>
+      <setting id="main_widget">tk_1</setting>
+      <setting id="main_classname">EpubLiner</setting>
+      <setting id="main_menu" />
+      <setting id="output_dir" />
+      <setting id="output_dir2" />
+      <setting id="import_tkvariables">False</setting>
+      <setting id="use_ttk_styledefinition_file">True</setting>
+      <setting id="use_i18n">False</setting>
+      <setting id="all_ids_attributes">False</setting>
+      <setting id="generate_code_onsave">False</setting>
+      <setting id="use_window_centering_code">False</setting>
+      <setting id="ttk_style_definition_file" />
+    </settings>
+    <customwidgets />
+  </project>
+  <object class="tk.Tk" id="tk_1">
+    <property name="height">39</property>
+    <property name="iconphoto">bm2.png</property>
+    <property name="relief">groove</property>
+    <property name="resizable">horizontally</property>
+    <property name="width">286</property>
+    <bind sequence="&lt;,&gt;" handler="on_shorter_press" add="" />
+    <bind sequence="&lt;.&gt;" handler="on_longer_press" add="" />
+    <bind sequence="&lt;a&gt;" handler="move_scr" add="" />
+    <bind sequence="&lt;d&gt;" handler="move_scr" add="" />
+    <bind sequence="&lt;f&gt;" handler="f" add="" />
+    <bind sequence="&lt;h&gt;" handler="h" add="" />
+    <bind sequence="&lt;m&gt;" handler="m" add="" />
+    <bind sequence="&lt;n&gt;" handler="n" add="" />
+    <bind sequence="&lt;o&gt;" handler="o" add="" />
+    <bind sequence="&lt;q&gt;" handler="exitapp" add="" />
+    <bind sequence="&lt;r&gt;" handler="r" add="" />
+    <bind sequence="&lt;s&gt;" handler="move_scr" add="" />
+    <bind sequence="&lt;t&gt;" handler="t" add="" />
+    <bind sequence="&lt;w&gt;" handler="move_scr" add="" />
+    <bind sequence="&lt;x&gt;" handler="x" add="" />
+    <bind sequence="&lt;z&gt;" handler="z" add="" />
+    <child>
+      <object class="ttk.Label" id="label_1">
+        <property name="compound">top</property>
+        <property name="cursor">arrow</property>
+        <property name="takefocus">false</property>
+        <property name="width">34</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

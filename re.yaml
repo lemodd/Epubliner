@@ -1,0 +1,16 @@
+books:
+- bookname: E:/lemo/EpubLiner/4.0/c.epub
+  chapterNo: 7
+  counter: 2746
+  lang: en
+
+options:
+  book_reading: E:/lemo/EpubLiner/4.0/c.epub
+  font_no: 2
+  font_size: 13
+  hidedtitle: true
+  ontop: true
+  scrx: 606
+  scry: 1007
+  text_width: 60
+  transparent: true
