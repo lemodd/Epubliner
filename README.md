@@ -5,7 +5,7 @@ EpubLiner 是一款基于 Python 的 EPUB 电子书阅读工具，借助 `tkinte
 
 介面只显示一行文本，可隐藏在状态栏、标题栏，同时可设置透明背景、方便上班摸鱼。
 
-![Clip_2025-06-25_16-17-07](E:\lemo\EpubLiner\4.0\EpubLiner 一线EPUB 阅读器.assets\Clip_2025-06-25_16-17-07.png)
+![Clip_2025-06-25_16-17-07](https://github.com/lemodd/Epubliner/blob/main/p.png)
 
 ## 功能特性
 1. **多种字体选择**：提供多种字体供用户选择，如微软雅黑、宋体、仓耳今楷 02 W03、仿宋、楷体。
